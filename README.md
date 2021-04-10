@@ -37,12 +37,19 @@ manager.showManualInput = YES;
 
 ## 配置服务器地址
 manager.configureDomainBlock = ^NSArray<YJDomainModel *> * _Nonnull{
-    YJDomainModel *local = [YJDomainModel itemWithType:YJDomainTypeLocal domainName:@"本地" baseUrl:@"https:www.baidu.com"];
+   
+   YJDomainModel *local = [YJDomainModel itemWithType:YJDomainTypeLocal domainName:@"本地" baseUrl:@"https:www.baidu.com"];
+   
     YJDomainModel *test = [YJDomainModel itemWithType:YJDomainTypeTest domainName:@"测试" baseUrl:@"https:www.cocoachina.com"];
+    
     YJDomainModel *produce = [YJDomainModel itemWithType:YJDomainTypeProduce domainName:@"发布" baseUrl:@"https:www.code4app.com"];
+    
     return @[local,test,produce];
+    
 };
 ## 弹出事件
 [manager chooseDomianCompletion:^(NSString * _Nonnull baseUrl, NSString * _Nonnull domainName) {
+
     NSLog(@"baseUrl = %@\ndomainName = %@",baseUrl,domainName);
+    
 }];
