@@ -1,0 +1,6 @@
+framework module YJDomainManager {
+  umbrella header "YJDomainManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,1372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 2022EEC9AE232594E0FDCBF227256D4A /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A0B7D1B0ADD3ECC2695DFFB9F05F112 /* BRDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E814000A1C0FB78D10CB2EED5FC4700B /* BRDatePickerView.m */; };
+		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2036808502FF24EAF3041852C331FE40 /* UIApplication+StrictKeyWindow.m */; };
+		121439AB6B4061E1B6222256817548FA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDEDE50DE317B19F66AFC31F30BA4790 /* XCTest.framework */; };
+		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB5E62F285B7ED2B3369A496C9391BF /* UIImage+Diff.m */; };
+		152006EC4226D2847269F06CEBCCA37C /* NSBundle+BRPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E19CF427213BB1D5E6B368152B6C401 /* NSBundle+BRPickerView.m */; };
+		182DCC523818611B2644EE4E4A5D8E6E /* NSBundle+BRPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 643A7172EDE9643C59E52932879F1A47 /* NSBundle+BRPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E7EA11E5405B532C9FD3718C79E0496 /* BRPickerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 02E642369E8171C22C2A71426D335FD8 /* BRPickerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EE7F02F1B94AE75C3B2654DFA37BED2 /* BRAddressPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0284BEF5EF0F48BAFC63D581F28CEB /* BRAddressPickerView.m */; };
+		22BA4D91FBA1F7F93BD6F5A77DB02137 /* NSDate+BRPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B1AE924B8183CF6B40207454F2486D /* NSDate+BRPickerView.m */; };
+		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 588E1DD0CF8176B46EE744EBE3A797B1 /* UIImage+Compare.m */; };
+		2E4C0BD2363ABABB6470FBA5415985AA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92FD072230502CBBD2A157A068A735FD /* QuartzCore.framework */; };
+		37B06396DEAA93807E7BF9CA05F2DFA0 /* BRPickerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 652B8FB530F0AC9606C6302BC047EED0 /* BRPickerView-dummy.m */; };
+		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = C2AD40ED57EA9A1E9667DEE383FC540F /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		433FE0D139BE9588F283A16756A89BAF /* YJDomainManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE384C57D885DBC64014BE9AF9F3223 /* YJDomainManager-dummy.m */; };
+		4AA81A6FC020639FCA19212D7945834D /* BRPickerView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D98B483D658A9BD9994047FDE69FD16 /* BRPickerView.framework */; };
+		4ACD5C75B2E64B14FFBDDEF735397B2C /* BRDatePickerView+BR.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C61AFD92DC89F1369F69E6AED43747 /* BRDatePickerView+BR.m */; };
+		507D2BF0C6A364290EB4D0906265A32A /* YJDomainManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E3D52D63451C546FF09F8A44A58C27EE /* YJDomainManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65AD14B49C66461A0FA5D6B58EBCE4A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C83985079EAC860E1E8897CBD7F9939 /* Foundation.framework */; };
+		6753CC8B7E086A1C596ACE550EA946B6 /* YJDomainManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BCA1C2B6BE93615221EA2128AE6C6E6C /* YJDomainManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70838B439AC63D42EF4AF376E7C40162 /* FBSnapshotTestCase-dummy.m */; };
+		6DFF7B626DA6E7BCFB579E94348D9975 /* Pods-YJDomainManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A611FF5B6B1AE593991E8220D6466F /* Pods-YJDomainManager_Example-dummy.m */; };
+		841209D10FD32FF49BD5C371764CDB0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C83985079EAC860E1E8897CBD7F9939 /* Foundation.framework */; };
+		8470A8BC89849947504A46FD69791A7E /* BRBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8595A3D47C5D708DD15B491552C7E31 /* BRBaseView.m */; };
+		88106D805177C5034EE66339DE8D7CF0 /* YJDomainManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BA852E4606FA6F39EF2EF94D28C7C4D3 /* YJDomainManager.m */; };
+		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D66EA480B601C428FE753F06A52DC1 /* FBSnapshotTestController.m */; };
+		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = F2825E52456125944BA2488289AAFF28 /* FBSnapshotTestCase.m */; };
+		8D1943220897F624DF0EC28A6446AA1D /* BRBaseView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C0DFB29AFAFAC88D99931D2FFED5B09 /* BRBaseView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FBB609DAE16FB8C4A246A78AB817F7A /* BRDatePickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4356B88B658E6FC206D90E8C03AA6AF7 /* BRDatePickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = C3659AFE5ADEF9EB7AF79D3BFC2E3DC5 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9410C90DE3D0A83789CBF1DD45EED907 /* Pods-YJDomainManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A344B46545AE7B804CD4640C3BC0D05 /* Pods-YJDomainManager_Tests-dummy.m */; };
+		94C492D7C4A674501334814D5ACBD0CE /* Pods-YJDomainManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EDC7A7D09351FE7D64222605C448B83F /* Pods-YJDomainManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98F84BC7DCD1609693628F51D09D0132 /* BRResultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 266908798F6C760D9E2F4D1066AF5016 /* BRResultModel.m */; };
+		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A12D1586D75EFD643358C6D43F4618 /* SwiftSupport.swift */; };
+		A14684BB6CFC83FB8EA19615F89D4771 /* NSDate+BRPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = D11DDC3F2F0CB242028C6A352FA986E5 /* NSDate+BRPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C18C39CEF2882BDD36E79353DEA149 /* UIImage+Snapshot.m */; };
+		B11B62EC2CD94264DFC0AA44EDF99AEC /* BRAddressPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = A9D8F3C5DB21D4370ADB81191A9FA1D0 /* BRAddressPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3B6D737C9EAAF67E67ED655C2BDAC77 /* BRAddressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E205ABE59A5AFF4FB880E0E39BB5D77D /* BRAddressModel.m */; };
+		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 89C176792FCDA6097A70C1A5346FF009 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		BB3A9058CBA7B42F39D76984B4B7B5CC /* Pods-YJDomainManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F7D0C321DF60E5462240776E8B9B80EA /* Pods-YJDomainManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB488024E2C1D56E6AA0EAD9F302CE13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C83985079EAC860E1E8897CBD7F9939 /* Foundation.framework */; };
+		BD4953074A12E769ED4E6C94F5E73694 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F86C2DCD2A16B9020FEDD5FF675FBF5B /* UIKit.framework */; };
+		C0E4BD00CABD44E93A4930898620F82B /* BRPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = A6E306E022264C793752B759B32F10BC /* BRPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = A395751CBC9B9A93D2719CA62D949BBC /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C61477E52A8B27BAFA3222637E97506F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C83985079EAC860E1E8897CBD7F9939 /* Foundation.framework */; };
+		CA63ADACAC6C2BF1E30108E6BEF68A09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C83985079EAC860E1E8897CBD7F9939 /* Foundation.framework */; };
+		CB2B3A826E167F10800A60D9FAA7F787 /* YJDomainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D7ABEF851CDA9BC919CA54815D8852 /* YJDomainModel.m */; };
+		CF4CCFD3139300D0F3678E1457ACDB22 /* BRStringPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFE13AF43A0889E76A736ED53D70631 /* BRStringPickerView.m */; };
+		CFAB15101EB895ADCA26627659A01C22 /* BRAddressModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 044910367E7F6CE847D84AF8B7009E3B /* BRAddressModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 169B08425496F7681484BE7D600CBEA6 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		DB50BB9EA3198FCAB3EEF9AAFDE89DED /* BRDatePickerView+BR.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ECD46EA2D79C00DBA4A26ACB82B348F /* BRDatePickerView+BR.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB9DEC845216CE62262C30FBF9C6DB8C /* BRResultModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 330478543CA8EE0A045E4C09E446C309 /* BRResultModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCC03CD56E28C1AEA1596381B3DAAD48 /* BRPickerStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = F037CEE712D01172E0FB28FB6FDDDBEE /* BRPickerStyle.m */; };
+		E28CDE7C3E80B25A3E0995236B0BA1BC /* BRPickerStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 56E4312BB521478B9D50B104952B7031 /* BRPickerStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7A03CD06E880BE76E7CCFB4C53AB47 /* FBSnapshotTestCasePlatform.m */; };
+		EE10C6DF2356CEE8295849400677F9AC /* BRPickerView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0C6449B5FE3CC99D43BE7233541ED4B6 /* BRPickerView.bundle */; };
+		EFCA799587748E537C2A99597FABDEBC /* BRPickerViewMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = D0C5249EDCD470282839EBAEE6300DF7 /* BRPickerViewMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1947B4E02BB0C963AFCF944843E7759 /* YJDomainModel.h in Headers */ = {isa = PBXBuildFile; fileRef = AF78C571831D7828FBC28CB77D8156B3 /* YJDomainModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 39D1C84B4FE326A3F41E1E617D3245C8 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA24FF2381E317B90DB541BA48A8CBA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF895700CCD0147FDE98DFA549FA01E7 /* BRStringPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBFD6F2AB5EA70188FDF4F3E3081D92 /* BRStringPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16F6A349C48870B13C8E2202930B4FCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D9F8A6784E4BCD07D2E401C5843BB32;
+			remoteInfo = YJDomainManager;
+		};
+		674F8851D785E5A81163BCDC80F39B23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D505645C3F99EB1E8B6529D64D2C3E1C;
+			remoteInfo = BRPickerView;
+		};
+		6907B8A2A60B1E9E01CCD47D9EE4B833 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38765797B0F5C3E58B3E5C68ED773BE7;
+			remoteInfo = "Pods-YJDomainManager_Example";
+		};
+		771E53733B9C463FC89AC1E459FEE14D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D505645C3F99EB1E8B6529D64D2C3E1C;
+			remoteInfo = BRPickerView;
+		};
+		80929E8B69C358DED697B463E57CB2B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
+			remoteInfo = FBSnapshotTestCase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02E642369E8171C22C2A71426D335FD8 /* BRPickerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BRPickerView-umbrella.h"; sourceTree = "<group>"; };
+		03F0E67A3B2E79F365CE4CC266314C6E /* Pods-YJDomainManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YJDomainManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		044910367E7F6CE847D84AF8B7009E3B /* BRAddressModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRAddressModel.h; path = BRPickerView/AddressPickerView/BRAddressModel.h; sourceTree = "<group>"; };
+		0B8BD1E578D84E40160FF20CF1CCDCAA /* BRPickerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BRPickerView.release.xcconfig; sourceTree = "<group>"; };
+		0C0DFB29AFAFAC88D99931D2FFED5B09 /* BRBaseView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRBaseView.h; path = BRPickerView/Base/BRBaseView.h; sourceTree = "<group>"; };
+		0C6449B5FE3CC99D43BE7233541ED4B6 /* BRPickerView.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = BRPickerView.bundle; path = BRPickerView/Base/BRPickerView.bundle; sourceTree = "<group>"; };
+		0E9BBE1BE89F865404087C434D4D3B3E /* Pods_YJDomainManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YJDomainManager_Tests.framework; path = "Pods-YJDomainManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EF80DFB6C3B96B3A269662E3BBB0E88 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		15012BA3C416BA989285EEE64BCA44C7 /* YJDomainManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YJDomainManager-prefix.pch"; sourceTree = "<group>"; };
+		169B08425496F7681484BE7D600CBEA6 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		18AF52A78FAA40AA095EDE76A1166AC7 /* Pods_YJDomainManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YJDomainManager_Example.framework; path = "Pods-YJDomainManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C18C39CEF2882BDD36E79353DEA149 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		1BD217E9F75358A816D1E9D9442D0822 /* BRPickerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BRPickerView-prefix.pch"; sourceTree = "<group>"; };
+		1FE88F423C9B5A5CC45B9470E5002151 /* Pods-YJDomainManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YJDomainManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2022EEC9AE232594E0FDCBF227256D4A /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		2036808502FF24EAF3041852C331FE40 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		25C61AFD92DC89F1369F69E6AED43747 /* BRDatePickerView+BR.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "BRDatePickerView+BR.m"; path = "BRPickerView/DatePickerView/BRDatePickerView+BR.m"; sourceTree = "<group>"; };
+		266908798F6C760D9E2F4D1066AF5016 /* BRResultModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BRResultModel.m; path = BRPickerView/StringPickerView/BRResultModel.m; sourceTree = "<group>"; };
+		2E2AEC4214F0C10E27B4BEF6DACF48DA /* Pods-YJDomainManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YJDomainManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		330478543CA8EE0A045E4C09E446C309 /* BRResultModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRResultModel.h; path = BRPickerView/StringPickerView/BRResultModel.h; sourceTree = "<group>"; };
+		386BE657E7B76CE88217C79EC5212E38 /* YJDomainManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YJDomainManager-Info.plist"; sourceTree = "<group>"; };
+		39D1C84B4FE326A3F41E1E617D3245C8 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		3B91064FF0F62624B18A9E3033ECFC40 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		3BB94530021E414959D23E5508CA8E72 /* Pods-YJDomainManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YJDomainManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3E19CF427213BB1D5E6B368152B6C401 /* NSBundle+BRPickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+BRPickerView.m"; path = "BRPickerView/Base/NSBundle+BRPickerView.m"; sourceTree = "<group>"; };
+		3EB5E62F285B7ED2B3369A496C9391BF /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		3EBFD6F2AB5EA70188FDF4F3E3081D92 /* BRStringPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRStringPickerView.h; path = BRPickerView/StringPickerView/BRStringPickerView.h; sourceTree = "<group>"; };
+		4356B88B658E6FC206D90E8C03AA6AF7 /* BRDatePickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRDatePickerView.h; path = BRPickerView/DatePickerView/BRDatePickerView.h; sourceTree = "<group>"; };
+		4F0700415E35938DF90C814414241BF4 /* Pods-YJDomainManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YJDomainManager_Example-frameworks.sh"; sourceTree = "<group>"; };
+		505A8DF3FE7C131EC0E0A469942C6B7A /* Pods-YJDomainManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YJDomainManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		51670C455E30DEFF391533DC168747A5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		566E874FC82D8623B868548D8B411961 /* YJDomainManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YJDomainManager.debug.xcconfig; sourceTree = "<group>"; };
+		56E4312BB521478B9D50B104952B7031 /* BRPickerStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRPickerStyle.h; path = BRPickerView/Base/BRPickerStyle.h; sourceTree = "<group>"; };
+		588E1DD0CF8176B46EE744EBE3A797B1 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		5BA6046B4C2674409C0D5625F45F8769 /* BRPickerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BRPickerView.framework; path = BRPickerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C7A03CD06E880BE76E7CCFB4C53AB47 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		5E200891AD43BFB2347F725D6B984170 /* Pods-YJDomainManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YJDomainManager_Tests.modulemap"; sourceTree = "<group>"; };
+		643A7172EDE9643C59E52932879F1A47 /* NSBundle+BRPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+BRPickerView.h"; path = "BRPickerView/Base/NSBundle+BRPickerView.h"; sourceTree = "<group>"; };
+		652B8FB530F0AC9606C6302BC047EED0 /* BRPickerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BRPickerView-dummy.m"; sourceTree = "<group>"; };
+		6AFE13AF43A0889E76A736ED53D70631 /* BRStringPickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BRStringPickerView.m; path = BRPickerView/StringPickerView/BRStringPickerView.m; sourceTree = "<group>"; };
+		6BE71B00E78D9EC46DB90D9A32D812C6 /* Pods-YJDomainManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YJDomainManager_Example.modulemap"; sourceTree = "<group>"; };
+		70838B439AC63D42EF4AF376E7C40162 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		73EEB9CCF110565E3D96587994B6AED0 /* BRPickerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BRPickerView.modulemap; sourceTree = "<group>"; };
+		79EF145DBD214B7CD21EF118951B4A46 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7A344B46545AE7B804CD4640C3BC0D05 /* Pods-YJDomainManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YJDomainManager_Tests-dummy.m"; sourceTree = "<group>"; };
+		86A12D1586D75EFD643358C6D43F4618 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		89C176792FCDA6097A70C1A5346FF009 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		8A9096CB85C4FCB23157CCC4CA7C4BB4 /* Pods-YJDomainManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YJDomainManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8C4FF6AF6E052362689A9A00903700D1 /* Pods-YJDomainManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YJDomainManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8D98B483D658A9BD9994047FDE69FD16 /* BRPickerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BRPickerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ECD46EA2D79C00DBA4A26ACB82B348F /* BRDatePickerView+BR.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BRDatePickerView+BR.h"; path = "BRPickerView/DatePickerView/BRDatePickerView+BR.h"; sourceTree = "<group>"; };
+		9042EAF609150589B8B9954CBBBBC402 /* Pods-YJDomainManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YJDomainManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		92FD072230502CBBD2A157A068A735FD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		94B95B3759DAB8533070911AC6AEC26F /* BRPickerView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BRPickerView-Info.plist"; sourceTree = "<group>"; };
+		9C6006825EB9539EDA3BB444543B3853 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
+		9C83985079EAC860E1E8897CBD7F9939 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A15A0B3C706154D35CC8705BC681D531 /* Pods-YJDomainManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YJDomainManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A2B1AE924B8183CF6B40207454F2486D /* NSDate+BRPickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+BRPickerView.m"; path = "BRPickerView/DatePickerView/NSDate+BRPickerView.m"; sourceTree = "<group>"; };
+		A2BAB94E412A8081339663ACF77AFCF1 /* YJDomainManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YJDomainManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3575B0851697338A294DD0BBBAFCA64 /* YJDomainManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YJDomainManager.release.xcconfig; sourceTree = "<group>"; };
+		A395751CBC9B9A93D2719CA62D949BBC /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		A53C68F68438252138455DD7DB8D7367 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
+		A6E306E022264C793752B759B32F10BC /* BRPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRPickerView.h; path = BRPickerView/BRPickerView.h; sourceTree = "<group>"; };
+		A9D8F3C5DB21D4370ADB81191A9FA1D0 /* BRAddressPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRAddressPickerView.h; path = BRPickerView/AddressPickerView/BRAddressPickerView.h; sourceTree = "<group>"; };
+		AEA24FF2381E317B90DB541BA48A8CBA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		AF78C571831D7828FBC28CB77D8156B3 /* YJDomainModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YJDomainModel.h; path = YJDomainManager/Classes/YJDomainModel.h; sourceTree = "<group>"; };
+		B2AD10DC5E69A65E677C2002F6EBC9C4 /* Pods-YJDomainManager_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YJDomainManager_Tests-Info.plist"; sourceTree = "<group>"; };
+		B8595A3D47C5D708DD15B491552C7E31 /* BRBaseView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BRBaseView.m; path = BRPickerView/Base/BRBaseView.m; sourceTree = "<group>"; };
+		BA852E4606FA6F39EF2EF94D28C7C4D3 /* YJDomainManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YJDomainManager.m; path = YJDomainManager/Classes/YJDomainManager.m; sourceTree = "<group>"; };
+		BCA1C2B6BE93615221EA2128AE6C6E6C /* YJDomainManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YJDomainManager.h; path = YJDomainManager/Classes/YJDomainManager.h; sourceTree = "<group>"; };
+		C0D66EA480B601C428FE753F06A52DC1 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		C1D7ABEF851CDA9BC919CA54815D8852 /* YJDomainModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YJDomainModel.m; path = YJDomainManager/Classes/YJDomainModel.m; sourceTree = "<group>"; };
+		C2AD40ED57EA9A1E9667DEE383FC540F /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		C3659AFE5ADEF9EB7AF79D3BFC2E3DC5 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		CE77AECA4F95B20F9FA07887D00BB83B /* BRPickerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BRPickerView.debug.xcconfig; sourceTree = "<group>"; };
+		D0B973ED22638BCA3ED264554F23595E /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		D0C5249EDCD470282839EBAEE6300DF7 /* BRPickerViewMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRPickerViewMacro.h; path = BRPickerView/Base/BRPickerViewMacro.h; sourceTree = "<group>"; };
+		D11DDC3F2F0CB242028C6A352FA986E5 /* NSDate+BRPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+BRPickerView.h"; path = "BRPickerView/DatePickerView/NSDate+BRPickerView.h"; sourceTree = "<group>"; };
+		D5A42D62AD7979F3CD0F35D9C3938126 /* YJDomainManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YJDomainManager.modulemap; sourceTree = "<group>"; };
+		DDEDE50DE317B19F66AFC31F30BA4790 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E205ABE59A5AFF4FB880E0E39BB5D77D /* BRAddressModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BRAddressModel.m; path = BRPickerView/AddressPickerView/BRAddressModel.m; sourceTree = "<group>"; };
+		E3D52D63451C546FF09F8A44A58C27EE /* YJDomainManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YJDomainManager-umbrella.h"; sourceTree = "<group>"; };
+		E814000A1C0FB78D10CB2EED5FC4700B /* BRDatePickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BRDatePickerView.m; path = BRPickerView/DatePickerView/BRDatePickerView.m; sourceTree = "<group>"; };
+		EA0284BEF5EF0F48BAFC63D581F28CEB /* BRAddressPickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BRAddressPickerView.m; path = BRPickerView/AddressPickerView/BRAddressPickerView.m; sourceTree = "<group>"; };
+		EDC7A7D09351FE7D64222605C448B83F /* Pods-YJDomainManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YJDomainManager_Tests-umbrella.h"; sourceTree = "<group>"; };
+		EE9EEA7136C7C2AAD782E3808FA29002 /* YJDomainManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YJDomainManager.framework; path = YJDomainManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F037CEE712D01172E0FB28FB6FDDDBEE /* BRPickerStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BRPickerStyle.m; path = BRPickerView/Base/BRPickerStyle.m; sourceTree = "<group>"; };
+		F2825E52456125944BA2488289AAFF28 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		F716BD06C0FF9EE6490E753D7D2BB902 /* Pods-YJDomainManager_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YJDomainManager_Example-Info.plist"; sourceTree = "<group>"; };
+		F7A611FF5B6B1AE593991E8220D6466F /* Pods-YJDomainManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YJDomainManager_Example-dummy.m"; sourceTree = "<group>"; };
+		F7D0C321DF60E5462240776E8B9B80EA /* Pods-YJDomainManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YJDomainManager_Example-umbrella.h"; sourceTree = "<group>"; };
+		F86C2DCD2A16B9020FEDD5FF675FBF5B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		FCE384C57D885DBC64014BE9AF9F3223 /* YJDomainManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YJDomainManager-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00A10F2C11FA5A0D32114CA91C295DB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841209D10FD32FF49BD5C371764CDB0A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DDD24719D9091525B3E507F950EFD6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65AD14B49C66461A0FA5D6B58EBCE4A5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4B77E245B28D9135BA6AAD4A0FC41C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB488024E2C1D56E6AA0EAD9F302CE13 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3D46B001E26AC56B2CC1C088713F3C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA81A6FC020639FCA19212D7945834D /* BRPickerView.framework in Frameworks */,
+				C61477E52A8B27BAFA3222637E97506F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E581515110D66F94F80A6937831489A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA63ADACAC6C2BF1E30108E6BEF68A09 /* Foundation.framework in Frameworks */,
+				2E4C0BD2363ABABB6470FBA5415985AA /* QuartzCore.framework in Frameworks */,
+				BD4953074A12E769ED4E6C94F5E73694 /* UIKit.framework in Frameworks */,
+				121439AB6B4061E1B6222256817548FA /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00752B646BC13D1080E5B866F65C53F1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C06CC131DFA7BCB6B855216A38835FF /* Pods-YJDomainManager_Example */,
+				71547B4A9518D06D6AB0E4732B441006 /* Pods-YJDomainManager_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1C06CC131DFA7BCB6B855216A38835FF /* Pods-YJDomainManager_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6BE71B00E78D9EC46DB90D9A32D812C6 /* Pods-YJDomainManager_Example.modulemap */,
+				8C4FF6AF6E052362689A9A00903700D1 /* Pods-YJDomainManager_Example-acknowledgements.markdown */,
+				2E2AEC4214F0C10E27B4BEF6DACF48DA /* Pods-YJDomainManager_Example-acknowledgements.plist */,
+				F7A611FF5B6B1AE593991E8220D6466F /* Pods-YJDomainManager_Example-dummy.m */,
+				4F0700415E35938DF90C814414241BF4 /* Pods-YJDomainManager_Example-frameworks.sh */,
+				F716BD06C0FF9EE6490E753D7D2BB902 /* Pods-YJDomainManager_Example-Info.plist */,
+				F7D0C321DF60E5462240776E8B9B80EA /* Pods-YJDomainManager_Example-umbrella.h */,
+				8A9096CB85C4FCB23157CCC4CA7C4BB4 /* Pods-YJDomainManager_Example.debug.xcconfig */,
+				A15A0B3C706154D35CC8705BC681D531 /* Pods-YJDomainManager_Example.release.xcconfig */,
+			);
+			name = "Pods-YJDomainManager_Example";
+			path = "Target Support Files/Pods-YJDomainManager_Example";
+			sourceTree = "<group>";
+		};
+		3C653CC5423B4EE96F9F0507BB1FBCB0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2022EEC9AE232594E0FDCBF227256D4A /* FBSnapshotTestCase.h */,
+				F2825E52456125944BA2488289AAFF28 /* FBSnapshotTestCase.m */,
+				A395751CBC9B9A93D2719CA62D949BBC /* FBSnapshotTestCasePlatform.h */,
+				5C7A03CD06E880BE76E7CCFB4C53AB47 /* FBSnapshotTestCasePlatform.m */,
+				C3659AFE5ADEF9EB7AF79D3BFC2E3DC5 /* FBSnapshotTestController.h */,
+				C0D66EA480B601C428FE753F06A52DC1 /* FBSnapshotTestController.m */,
+				C2AD40ED57EA9A1E9667DEE383FC540F /* UIApplication+StrictKeyWindow.h */,
+				2036808502FF24EAF3041852C331FE40 /* UIApplication+StrictKeyWindow.m */,
+				39D1C84B4FE326A3F41E1E617D3245C8 /* UIImage+Compare.h */,
+				588E1DD0CF8176B46EE744EBE3A797B1 /* UIImage+Compare.m */,
+				169B08425496F7681484BE7D600CBEA6 /* UIImage+Diff.h */,
+				3EB5E62F285B7ED2B3369A496C9391BF /* UIImage+Diff.m */,
+				89C176792FCDA6097A70C1A5346FF009 /* UIImage+Snapshot.h */,
+				18C18C39CEF2882BDD36E79353DEA149 /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		431609AF89B966F206205EE1967C1C1E /* BRPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				A6E306E022264C793752B759B32F10BC /* BRPickerView.h */,
+				D3C1BABBFDB6832BA6A4C4271CE785ED /* AddressPickerView */,
+				B7F62B1C6C96A4AE1659A27824E50D82 /* Base */,
+				96BEA0D5F03F92EBD9EB577808F53B65 /* DatePickerView */,
+				619731C7CB5E9857808D4110103DD961 /* StringPickerView */,
+				AB0B6DA5538A8604FF1D416FFA665D72 /* Support Files */,
+			);
+			name = BRPickerView;
+			path = BRPickerView;
+			sourceTree = "<group>";
+		};
+		506ADBA3E2411E7EFC1132E3BCE4ABB4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0C6449B5FE3CC99D43BE7233541ED4B6 /* BRPickerView.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		619731C7CB5E9857808D4110103DD961 /* StringPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				330478543CA8EE0A045E4C09E446C309 /* BRResultModel.h */,
+				266908798F6C760D9E2F4D1066AF5016 /* BRResultModel.m */,
+				3EBFD6F2AB5EA70188FDF4F3E3081D92 /* BRStringPickerView.h */,
+				6AFE13AF43A0889E76A736ED53D70631 /* BRStringPickerView.m */,
+			);
+			name = StringPickerView;
+			sourceTree = "<group>";
+		};
+		65A1ED10DA441871738F18BB19B6ADB4 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				3C653CC5423B4EE96F9F0507BB1FBCB0 /* Core */,
+				73D3224E2E6029750373E831CC2602D2 /* Support Files */,
+				B5A67BF3BBC3E55EE8B6300CABDBDC05 /* SwiftSupport */,
+			);
+			name = FBSnapshotTestCase;
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		71547B4A9518D06D6AB0E4732B441006 /* Pods-YJDomainManager_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5E200891AD43BFB2347F725D6B984170 /* Pods-YJDomainManager_Tests.modulemap */,
+				3BB94530021E414959D23E5508CA8E72 /* Pods-YJDomainManager_Tests-acknowledgements.markdown */,
+				505A8DF3FE7C131EC0E0A469942C6B7A /* Pods-YJDomainManager_Tests-acknowledgements.plist */,
+				7A344B46545AE7B804CD4640C3BC0D05 /* Pods-YJDomainManager_Tests-dummy.m */,
+				9042EAF609150589B8B9954CBBBBC402 /* Pods-YJDomainManager_Tests-frameworks.sh */,
+				B2AD10DC5E69A65E677C2002F6EBC9C4 /* Pods-YJDomainManager_Tests-Info.plist */,
+				EDC7A7D09351FE7D64222605C448B83F /* Pods-YJDomainManager_Tests-umbrella.h */,
+				03F0E67A3B2E79F365CE4CC266314C6E /* Pods-YJDomainManager_Tests.debug.xcconfig */,
+				1FE88F423C9B5A5CC45B9470E5002151 /* Pods-YJDomainManager_Tests.release.xcconfig */,
+			);
+			name = "Pods-YJDomainManager_Tests";
+			path = "Target Support Files/Pods-YJDomainManager_Tests";
+			sourceTree = "<group>";
+		};
+		73D3224E2E6029750373E831CC2602D2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0EF80DFB6C3B96B3A269662E3BBB0E88 /* FBSnapshotTestCase.modulemap */,
+				70838B439AC63D42EF4AF376E7C40162 /* FBSnapshotTestCase-dummy.m */,
+				D0B973ED22638BCA3ED264554F23595E /* FBSnapshotTestCase-Info.plist */,
+				3B91064FF0F62624B18A9E3033ECFC40 /* FBSnapshotTestCase-prefix.pch */,
+				AEA24FF2381E317B90DB541BA48A8CBA /* FBSnapshotTestCase-umbrella.h */,
+				9C6006825EB9539EDA3BB444543B3853 /* FBSnapshotTestCase.debug.xcconfig */,
+				A53C68F68438252138455DD7DB8D7367 /* FBSnapshotTestCase.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		7C7ED8DB8EE369A29F34539FF21FA2D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BA6046B4C2674409C0D5625F45F8769 /* BRPickerView.framework */,
+				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
+				18AF52A78FAA40AA095EDE76A1166AC7 /* Pods_YJDomainManager_Example.framework */,
+				0E9BBE1BE89F865404087C434D4D3B3E /* Pods_YJDomainManager_Tests.framework */,
+				EE9EEA7136C7C2AAD782E3808FA29002 /* YJDomainManager.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D590008A50ED22EA9B6DFF942F378E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				431609AF89B966F206205EE1967C1C1E /* BRPickerView */,
+				65A1ED10DA441871738F18BB19B6ADB4 /* FBSnapshotTestCase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		96BEA0D5F03F92EBD9EB577808F53B65 /* DatePickerView */ = {
+			isa = PBXGroup;
+			children = (
+				4356B88B658E6FC206D90E8C03AA6AF7 /* BRDatePickerView.h */,
+				E814000A1C0FB78D10CB2EED5FC4700B /* BRDatePickerView.m */,
+				8ECD46EA2D79C00DBA4A26ACB82B348F /* BRDatePickerView+BR.h */,
+				25C61AFD92DC89F1369F69E6AED43747 /* BRDatePickerView+BR.m */,
+				D11DDC3F2F0CB242028C6A352FA986E5 /* NSDate+BRPickerView.h */,
+				A2B1AE924B8183CF6B40207454F2486D /* NSDate+BRPickerView.m */,
+			);
+			name = DatePickerView;
+			sourceTree = "<group>";
+		};
+		9B1DDD8A605FDA1AC3EB7362C6186C2A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				79EF145DBD214B7CD21EF118951B4A46 /* LICENSE */,
+				51670C455E30DEFF391533DC168747A5 /* README.md */,
+				A2BAB94E412A8081339663ACF77AFCF1 /* YJDomainManager.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		AB0B6DA5538A8604FF1D416FFA665D72 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				73EEB9CCF110565E3D96587994B6AED0 /* BRPickerView.modulemap */,
+				652B8FB530F0AC9606C6302BC047EED0 /* BRPickerView-dummy.m */,
+				94B95B3759DAB8533070911AC6AEC26F /* BRPickerView-Info.plist */,
+				1BD217E9F75358A816D1E9D9442D0822 /* BRPickerView-prefix.pch */,
+				02E642369E8171C22C2A71426D335FD8 /* BRPickerView-umbrella.h */,
+				CE77AECA4F95B20F9FA07887D00BB83B /* BRPickerView.debug.xcconfig */,
+				0B8BD1E578D84E40160FF20CF1CCDCAA /* BRPickerView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BRPickerView";
+			sourceTree = "<group>";
+		};
+		B5A67BF3BBC3E55EE8B6300CABDBDC05 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				86A12D1586D75EFD643358C6D43F4618 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		B7701261E0275B91CB0D261D347DCC3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D98B483D658A9BD9994047FDE69FD16 /* BRPickerView.framework */,
+				CE827B9864F33D37515964514B8FC8EB /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7F62B1C6C96A4AE1659A27824E50D82 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				0C0DFB29AFAFAC88D99931D2FFED5B09 /* BRBaseView.h */,
+				B8595A3D47C5D708DD15B491552C7E31 /* BRBaseView.m */,
+				56E4312BB521478B9D50B104952B7031 /* BRPickerStyle.h */,
+				F037CEE712D01172E0FB28FB6FDDDBEE /* BRPickerStyle.m */,
+				D0C5249EDCD470282839EBAEE6300DF7 /* BRPickerViewMacro.h */,
+				643A7172EDE9643C59E52932879F1A47 /* NSBundle+BRPickerView.h */,
+				3E19CF427213BB1D5E6B368152B6C401 /* NSBundle+BRPickerView.m */,
+				506ADBA3E2411E7EFC1132E3BCE4ABB4 /* Resources */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		CE827B9864F33D37515964514B8FC8EB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9C83985079EAC860E1E8897CBD7F9939 /* Foundation.framework */,
+				92FD072230502CBBD2A157A068A735FD /* QuartzCore.framework */,
+				F86C2DCD2A16B9020FEDD5FF675FBF5B /* UIKit.framework */,
+				DDEDE50DE317B19F66AFC31F30BA4790 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				DB3E56D7A92E9FBC175AC2CA97AB5320 /* Development Pods */,
+				B7701261E0275B91CB0D261D347DCC3A /* Frameworks */,
+				7D590008A50ED22EA9B6DFF942F378E7 /* Pods */,
+				7C7ED8DB8EE369A29F34539FF21FA2D1 /* Products */,
+				00752B646BC13D1080E5B866F65C53F1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D3C1BABBFDB6832BA6A4C4271CE785ED /* AddressPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				044910367E7F6CE847D84AF8B7009E3B /* BRAddressModel.h */,
+				E205ABE59A5AFF4FB880E0E39BB5D77D /* BRAddressModel.m */,
+				A9D8F3C5DB21D4370ADB81191A9FA1D0 /* BRAddressPickerView.h */,
+				EA0284BEF5EF0F48BAFC63D581F28CEB /* BRAddressPickerView.m */,
+			);
+			name = AddressPickerView;
+			sourceTree = "<group>";
+		};
+		DB3E56D7A92E9FBC175AC2CA97AB5320 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F154C244E3BCC90E0ED92AE7E27C592A /* YJDomainManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F154C244E3BCC90E0ED92AE7E27C592A /* YJDomainManager */ = {
+			isa = PBXGroup;
+			children = (
+				BCA1C2B6BE93615221EA2128AE6C6E6C /* YJDomainManager.h */,
+				BA852E4606FA6F39EF2EF94D28C7C4D3 /* YJDomainManager.m */,
+				AF78C571831D7828FBC28CB77D8156B3 /* YJDomainModel.h */,
+				C1D7ABEF851CDA9BC919CA54815D8852 /* YJDomainModel.m */,
+				9B1DDD8A605FDA1AC3EB7362C6186C2A /* Pod */,
+				F931E7C424047187BC42480810B567A4 /* Support Files */,
+			);
+			name = YJDomainManager;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F931E7C424047187BC42480810B567A4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5A42D62AD7979F3CD0F35D9C3938126 /* YJDomainManager.modulemap */,
+				FCE384C57D885DBC64014BE9AF9F3223 /* YJDomainManager-dummy.m */,
+				386BE657E7B76CE88217C79EC5212E38 /* YJDomainManager-Info.plist */,
+				15012BA3C416BA989285EEE64BCA44C7 /* YJDomainManager-prefix.pch */,
+				E3D52D63451C546FF09F8A44A58C27EE /* YJDomainManager-umbrella.h */,
+				566E874FC82D8623B868548D8B411961 /* YJDomainManager.debug.xcconfig */,
+				A3575B0851697338A294DD0BBBAFCA64 /* YJDomainManager.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YJDomainManager";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		02FE61ACBC3E1CC966C46E279E6CE67F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				507D2BF0C6A364290EB4D0906265A32A /* YJDomainManager-umbrella.h in Headers */,
+				6753CC8B7E086A1C596ACE550EA946B6 /* YJDomainManager.h in Headers */,
+				F1947B4E02BB0C963AFCF944843E7759 /* YJDomainModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3714E50A71607771B36A54940C4D3CAD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFAB15101EB895ADCA26627659A01C22 /* BRAddressModel.h in Headers */,
+				B11B62EC2CD94264DFC0AA44EDF99AEC /* BRAddressPickerView.h in Headers */,
+				8D1943220897F624DF0EC28A6446AA1D /* BRBaseView.h in Headers */,
+				DB50BB9EA3198FCAB3EEF9AAFDE89DED /* BRDatePickerView+BR.h in Headers */,
+				8FBB609DAE16FB8C4A246A78AB817F7A /* BRDatePickerView.h in Headers */,
+				E28CDE7C3E80B25A3E0995236B0BA1BC /* BRPickerStyle.h in Headers */,
+				1E7EA11E5405B532C9FD3718C79E0496 /* BRPickerView-umbrella.h in Headers */,
+				C0E4BD00CABD44E93A4930898620F82B /* BRPickerView.h in Headers */,
+				EFCA799587748E537C2A99597FABDEBC /* BRPickerViewMacro.h in Headers */,
+				DB9DEC845216CE62262C30FBF9C6DB8C /* BRResultModel.h in Headers */,
+				FF895700CCD0147FDE98DFA549FA01E7 /* BRStringPickerView.h in Headers */,
+				182DCC523818611B2644EE4E4A5D8E6E /* NSBundle+BRPickerView.h in Headers */,
+				A14684BB6CFC83FB8EA19615F89D4771 /* NSDate+BRPickerView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */,
+				C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */,
+				90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */,
+				40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */,
+				F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */,
+				D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */,
+				B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5892D2EA9BB2ED9E98C2A546659FAB30 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C492D7C4A674501334814D5ACBD0CE /* Pods-YJDomainManager_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7D1D6D582F8A1CECA88B650990842B3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB3A9058CBA7B42F39D76984B4B7B5CC /* Pods-YJDomainManager_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		38765797B0F5C3E58B3E5C68ED773BE7 /* Pods-YJDomainManager_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3067396EA6B66E49EFF6BE15B171FDB2 /* Build configuration list for PBXNativeTarget "Pods-YJDomainManager_Example" */;
+			buildPhases = (
+				A7D1D6D582F8A1CECA88B650990842B3 /* Headers */,
+				487EFBFDAA1CFC65B7D851CAE1266FA9 /* Sources */,
+				5DDD24719D9091525B3E507F950EFD6E /* Frameworks */,
+				14BDB039547BBF60B6A9E40FA9DCB61A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03CEF745F4748AB49B093492139057CD /* PBXTargetDependency */,
+				5F89CDD57552A9BC0DE6B2C05769BBC7 /* PBXTargetDependency */,
+			);
+			name = "Pods-YJDomainManager_Example";
+			productName = "Pods-YJDomainManager_Example";
+			productReference = 18AF52A78FAA40AA095EDE76A1166AC7 /* Pods_YJDomainManager_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4DAEEA335B2B0902933514AA160DB61F /* Pods-YJDomainManager_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1CF86358CD9C2B2A074515E313953C5 /* Build configuration list for PBXNativeTarget "Pods-YJDomainManager_Tests" */;
+			buildPhases = (
+				5892D2EA9BB2ED9E98C2A546659FAB30 /* Headers */,
+				026605DF35AF4A5FE04426BAFCD0A409 /* Sources */,
+				00A10F2C11FA5A0D32114CA91C295DB6 /* Frameworks */,
+				D37AD28D3BC3275C8DC5AE1E7BAFFE81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8C23C208D6C37484E9CD4E50835E816 /* PBXTargetDependency */,
+				270E53DB3C22E84B7A70B3ECC62DB945 /* PBXTargetDependency */,
+			);
+			name = "Pods-YJDomainManager_Tests";
+			productName = "Pods-YJDomainManager_Tests";
+			productReference = 0E9BBE1BE89F865404087C434D4D3B3E /* Pods_YJDomainManager_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */,
+				A48201AC594B2E6B09C0EE0396BC1377 /* Sources */,
+				E581515110D66F94F80A6937831489A1 /* Frameworks */,
+				5CC655F1A6C7A45A9693160581076BAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9D9F8A6784E4BCD07D2E401C5843BB32 /* YJDomainManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5CAB1E72810AA0693DD70461618CA6E /* Build configuration list for PBXNativeTarget "YJDomainManager" */;
+			buildPhases = (
+				02FE61ACBC3E1CC966C46E279E6CE67F /* Headers */,
+				0FA3DC5F46AE4A6613E8CD7215CD8D26 /* Sources */,
+				E3D46B001E26AC56B2CC1C088713F3C5 /* Frameworks */,
+				65FF1B1E1452E475AA0F09788C8F7C15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DFBBC1A11406A395993719277FD0275 /* PBXTargetDependency */,
+			);
+			name = YJDomainManager;
+			productName = YJDomainManager;
+			productReference = EE9EEA7136C7C2AAD782E3808FA29002 /* YJDomainManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D505645C3F99EB1E8B6529D64D2C3E1C /* BRPickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8D5708B757177570BAF39FDE7EC4AED /* Build configuration list for PBXNativeTarget "BRPickerView" */;
+			buildPhases = (
+				3714E50A71607771B36A54940C4D3CAD /* Headers */,
+				39AF6BE8DFF692EEF88891C83BC80023 /* Sources */,
+				AC4B77E245B28D9135BA6AAD4A0FC41C /* Frameworks */,
+				D6882CE55B35DE36EB76EAF80D84F09A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BRPickerView;
+			productName = BRPickerView;
+			productReference = 5BA6046B4C2674409C0D5625F45F8769 /* BRPickerView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 7C7ED8DB8EE369A29F34539FF21FA2D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D505645C3F99EB1E8B6529D64D2C3E1C /* BRPickerView */,
+				98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */,
+				38765797B0F5C3E58B3E5C68ED773BE7 /* Pods-YJDomainManager_Example */,
+				4DAEEA335B2B0902933514AA160DB61F /* Pods-YJDomainManager_Tests */,
+				9D9F8A6784E4BCD07D2E401C5843BB32 /* YJDomainManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14BDB039547BBF60B6A9E40FA9DCB61A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC655F1A6C7A45A9693160581076BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65FF1B1E1452E475AA0F09788C8F7C15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D37AD28D3BC3275C8DC5AE1E7BAFFE81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6882CE55B35DE36EB76EAF80D84F09A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE10C6DF2356CEE8295849400677F9AC /* BRPickerView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		026605DF35AF4A5FE04426BAFCD0A409 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9410C90DE3D0A83789CBF1DD45EED907 /* Pods-YJDomainManager_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FA3DC5F46AE4A6613E8CD7215CD8D26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				433FE0D139BE9588F283A16756A89BAF /* YJDomainManager-dummy.m in Sources */,
+				88106D805177C5034EE66339DE8D7CF0 /* YJDomainManager.m in Sources */,
+				CB2B3A826E167F10800A60D9FAA7F787 /* YJDomainModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39AF6BE8DFF692EEF88891C83BC80023 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3B6D737C9EAAF67E67ED655C2BDAC77 /* BRAddressModel.m in Sources */,
+				1EE7F02F1B94AE75C3B2654DFA37BED2 /* BRAddressPickerView.m in Sources */,
+				8470A8BC89849947504A46FD69791A7E /* BRBaseView.m in Sources */,
+				4ACD5C75B2E64B14FFBDDEF735397B2C /* BRDatePickerView+BR.m in Sources */,
+				0A0B7D1B0ADD3ECC2695DFFB9F05F112 /* BRDatePickerView.m in Sources */,
+				DCC03CD56E28C1AEA1596381B3DAAD48 /* BRPickerStyle.m in Sources */,
+				37B06396DEAA93807E7BF9CA05F2DFA0 /* BRPickerView-dummy.m in Sources */,
+				98F84BC7DCD1609693628F51D09D0132 /* BRResultModel.m in Sources */,
+				CF4CCFD3139300D0F3678E1457ACDB22 /* BRStringPickerView.m in Sources */,
+				152006EC4226D2847269F06CEBCCA37C /* NSBundle+BRPickerView.m in Sources */,
+				22BA4D91FBA1F7F93BD6F5A77DB02137 /* NSDate+BRPickerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		487EFBFDAA1CFC65B7D851CAE1266FA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DFF7B626DA6E7BCFB579E94348D9975 /* Pods-YJDomainManager_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A48201AC594B2E6B09C0EE0396BC1377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */,
+				8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */,
+				E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */,
+				88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */,
+				9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */,
+				11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */,
+				2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */,
+				14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */,
+				A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03CEF745F4748AB49B093492139057CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BRPickerView;
+			target = D505645C3F99EB1E8B6529D64D2C3E1C /* BRPickerView */;
+			targetProxy = 771E53733B9C463FC89AC1E459FEE14D /* PBXContainerItemProxy */;
+		};
+		270E53DB3C22E84B7A70B3ECC62DB945 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-YJDomainManager_Example";
+			target = 38765797B0F5C3E58B3E5C68ED773BE7 /* Pods-YJDomainManager_Example */;
+			targetProxy = 6907B8A2A60B1E9E01CCD47D9EE4B833 /* PBXContainerItemProxy */;
+		};
+		5F89CDD57552A9BC0DE6B2C05769BBC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YJDomainManager;
+			target = 9D9F8A6784E4BCD07D2E401C5843BB32 /* YJDomainManager */;
+			targetProxy = 16F6A349C48870B13C8E2202930B4FCC /* PBXContainerItemProxy */;
+		};
+		9DFBBC1A11406A395993719277FD0275 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BRPickerView;
+			target = D505645C3F99EB1E8B6529D64D2C3E1C /* BRPickerView */;
+			targetProxy = 674F8851D785E5A81163BCDC80F39B23 /* PBXContainerItemProxy */;
+		};
+		D8C23C208D6C37484E9CD4E50835E816 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
+			targetProxy = 80929E8B69C358DED697B463E57CB2B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		395B5C831E764D6FED23ABF877F2FD12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FE88F423C9B5A5CC45B9470E5002151 /* Pods-YJDomainManager_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YJDomainManager_Tests/Pods-YJDomainManager_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YJDomainManager_Tests/Pods-YJDomainManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3E39A517897BFCDD1DD7268CB1B69BE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C6006825EB9539EDA3BB444543B3853 /* FBSnapshotTestCase.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		55D83091BE1D28DCB15213EF3531E1EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 566E874FC82D8623B868548D8B411961 /* YJDomainManager.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YJDomainManager/YJDomainManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YJDomainManager/YJDomainManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YJDomainManager/YJDomainManager.modulemap";
+				PRODUCT_MODULE_NAME = YJDomainManager;
+				PRODUCT_NAME = YJDomainManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		569D45673327A8B5AB2CA208A595C6A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B8BD1E578D84E40160FF20CF1CCDCAA /* BRPickerView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BRPickerView/BRPickerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BRPickerView/BRPickerView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BRPickerView/BRPickerView.modulemap";
+				PRODUCT_MODULE_NAME = BRPickerView;
+				PRODUCT_NAME = BRPickerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5961FD246DE34CC90B500CB213C1677C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A15A0B3C706154D35CC8705BC681D531 /* Pods-YJDomainManager_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YJDomainManager_Example/Pods-YJDomainManager_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YJDomainManager_Example/Pods-YJDomainManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AAC147F03FA494E45CAE6D1D7E584AFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A9096CB85C4FCB23157CCC4CA7C4BB4 /* Pods-YJDomainManager_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YJDomainManager_Example/Pods-YJDomainManager_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YJDomainManager_Example/Pods-YJDomainManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B1B693F2AD85104F8F821138F8D72270 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03F0E67A3B2E79F365CE4CC266314C6E /* Pods-YJDomainManager_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YJDomainManager_Tests/Pods-YJDomainManager_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YJDomainManager_Tests/Pods-YJDomainManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BF531801B332EDF71FA8F4F9667B86BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A53C68F68438252138455DD7DB8D7367 /* FBSnapshotTestCase.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BFE6FD039998C383D2804AB276612B8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3575B0851697338A294DD0BBBAFCA64 /* YJDomainManager.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YJDomainManager/YJDomainManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YJDomainManager/YJDomainManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YJDomainManager/YJDomainManager.modulemap";
+				PRODUCT_MODULE_NAME = YJDomainManager;
+				PRODUCT_NAME = YJDomainManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CBB22A36045AD02E6C1365EFE6B8B69D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE77AECA4F95B20F9FA07887D00BB83B /* BRPickerView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BRPickerView/BRPickerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BRPickerView/BRPickerView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BRPickerView/BRPickerView.modulemap";
+				PRODUCT_MODULE_NAME = BRPickerView;
+				PRODUCT_NAME = BRPickerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3067396EA6B66E49EFF6BE15B171FDB2 /* Build configuration list for PBXNativeTarget "Pods-YJDomainManager_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAC147F03FA494E45CAE6D1D7E584AFB /* Debug */,
+				5961FD246DE34CC90B500CB213C1677C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E39A517897BFCDD1DD7268CB1B69BE9 /* Debug */,
+				BF531801B332EDF71FA8F4F9667B86BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1CF86358CD9C2B2A074515E313953C5 /* Build configuration list for PBXNativeTarget "Pods-YJDomainManager_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1B693F2AD85104F8F821138F8D72270 /* Debug */,
+				395B5C831E764D6FED23ABF877F2FD12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5CAB1E72810AA0693DD70461618CA6E /* Build configuration list for PBXNativeTarget "YJDomainManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55D83091BE1D28DCB15213EF3531E1EE /* Debug */,
+				BFE6FD039998C383D2804AB276612B8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8D5708B757177570BAF39FDE7EC4AED /* Build configuration list for PBXNativeTarget "BRPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBB22A36045AD02E6C1365EFE6B8B69D /* Debug */,
+				569D45673327A8B5AB2CA208A595C6A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
