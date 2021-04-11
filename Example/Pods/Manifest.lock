@@ -1,0 +1,42 @@
+PODS:
+  - BRPickerView (2.7.3):
+    - BRPickerView/AddressPickerView (= 2.7.3)
+    - BRPickerView/Base (= 2.7.3)
+    - BRPickerView/DatePickerView (= 2.7.3)
+    - BRPickerView/StringPickerView (= 2.7.3)
+  - BRPickerView/AddressPickerView (2.7.3):
+    - BRPickerView/Base
+  - BRPickerView/Base (2.7.3)
+  - BRPickerView/DatePickerView (2.7.3):
+    - BRPickerView/Base
+  - BRPickerView/StringPickerView (2.7.3):
+    - BRPickerView/Base
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - YJDomainManager (1.1.0):
+    - BRPickerView (~> 2.7.3)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - YJDomainManager (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - BRPickerView
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  YJDomainManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BRPickerView: 9cc11880ac79c4872d081ccb88f306224c1501d7
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  YJDomainManager: d289000e25561d6eaa8f2bbe583ce2913f23e137
+
+PODFILE CHECKSUM: 4df8f162b1d129a1f0163f30766dfac99de0aafb
+
+COCOAPODS: 1.9.3
