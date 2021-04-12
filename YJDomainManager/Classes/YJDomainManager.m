@@ -19,6 +19,8 @@
 
 @property (nonatomic,strong,readwrite) NSString *baseUrl;
 
+@property (nonatomic,strong) NSArray <YJDomainModel *> *urlList;
+
 @end
 
 static YJDomainManager  *domainManager = nil;
@@ -37,12 +39,23 @@ static YJDomainManager  *domainManager = nil;
     return domainManager;
 }
 
+- (NSArray <YJDomainModel *> *)urlList {
+    if (!_urlList) {
+        if (self.configureDomainBlock) {
+            _urlList = self.configureDomainBlock();
+        }else {
+            _urlList = [NSArray array];
+        }
+    }
+    return _urlList;
+}
+
 - (NSString *)domainName {
     if (self.domainType==YJDomainTypeManualInput) {
         _domainName = @"自定义";
     }else {
         if (self.configureDomainBlock) {
-            [self.configureDomainBlock() enumerateObjectsUsingBlock:^(YJDomainModel * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+            [self.urlList enumerateObjectsUsingBlock:^(YJDomainModel * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
     #ifdef DEBUG
                 if (obj.domainType==self.domainType) {
                     _domainName = obj.title;
@@ -67,7 +80,7 @@ static YJDomainManager  *domainManager = nil;
         _baseUrl = [NSUserDefaults.standardUserDefaults objectForKey:YJManualInputKey];
     }else {
         if (self.configureDomainBlock) {
-            [self.configureDomainBlock() enumerateObjectsUsingBlock:^(YJDomainModel * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+            [self.urlList enumerateObjectsUsingBlock:^(YJDomainModel * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
     #ifdef DEBUG
                 if (obj.domainType==self.domainType) {
                     _baseUrl = obj.baseUrl;
@@ -90,7 +103,7 @@ static YJDomainManager  *domainManager = nil;
 - (void)chooseDomianCompletion:(void (^__nullable)(NSString *baseUrl,NSString *domainName))completion {
     if (self.configureDomainBlock) {
         NSMutableArray <NSString *> *nameMut = [NSMutableArray array];
-        NSMutableArray <YJDomainModel *> * lists = [NSMutableArray arrayWithArray:self.configureDomainBlock()];
+        NSMutableArray <YJDomainModel *> * lists = [NSMutableArray arrayWithArray:self.urlList];
         if (self.showManualInput) {
             YJDomainModel *input = [YJDomainModel itemWithType:YJDomainTypeManualInput domainName:@"自定义" baseUrl:@""];
             [lists addObject:input];
