@@ -40,13 +40,20 @@ static YJDomainManager  *domainManager = nil;
 }
 
 - (NSArray <YJDomainModel *> *)urlList {
-    if (!_urlList) {
-        if (self.configureDomainBlock) {
-            _urlList = self.configureDomainBlock();
-        }else {
-            _urlList = [NSArray array];
+    if (!_allowRefresh) {
+        //仅初始化
+        if (!_urlList) {
+            if (self.configureDomainBlock) {
+                _urlList = self.configureDomainBlock();
+            }else {
+                _urlList = [NSArray array];
+            }
         }
+    }else {
+        //实时刷新
+        _urlList = self.configureDomainBlock();
     }
+    
     return _urlList;
 }
 
