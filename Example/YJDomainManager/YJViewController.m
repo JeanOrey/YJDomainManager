@@ -34,7 +34,10 @@
     YJDomainManager *manager = [YJDomainManager manager];
     //显示自定义地址
     manager.showManualInput = YES;
-    //实时刷新url
+    /*
+     ⚠️ 适用于同一个类型下需访问不同服务器的情况。 比如“发布”环境下需要访问不同的中英文服务器，可开启 allowRefresh 实时刷新baseUrl信息
+     ⚠️ 若无此需求，建议不要开启 allowRefresh
+     */
     manager.allowRefresh = YES;
     //配置服务器地址
     __weak typeof(self) weakSelf = self;
